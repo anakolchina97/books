@@ -13,14 +13,14 @@
 
 .search__wrapper img {
   position: absolute;
-  top: 10px;
   left: 10px;
+  top: 12px;
 }
 
 .search__input {
+  background: #dedede;
   border: none;
   border-radius: 5px;
-  background: #dedede;
   color: #252525;
   padding: 15px 30px 15px 50px;
   flex: 1;
@@ -38,6 +38,5 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  --size: 50px;
-  width: var(--size);
+  width: 50px;
 }
